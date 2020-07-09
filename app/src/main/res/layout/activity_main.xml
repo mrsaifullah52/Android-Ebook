@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F3F3F3"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#416EDE"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/qoute"
+                    style="@style/quote"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Daily Qoute"
+                    style="@style/quoteTitle"
+                    />
+            </LinearLayout>
+
+<!--            1st row start from here-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_weight="2"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    style="@style/cardviewLayout"
+                    android:id="@+id/finalTerm"
+                    >
+                    <ImageView
+                        android:src="@drawable/book"
+                        android:contentDescription="Final Term"
+                        style="@style/cardviewImg"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Final Term"
+                        style="@style/cardviewTxt"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    style="@style/cardviewLayout"
+                    android:id="@+id/midTerm"
+                    >
+                    <ImageView
+                        android:src="@drawable/book"
+                        android:contentDescription="Mid Term"
+                        style="@style/cardviewImg"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mid Term"
+                        style="@style/cardviewTxt"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+<!--            2nd row start from here -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_weight="2"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    style="@style/cardviewLayout"
+                    android:id="@+id/currentPapers"
+                    >
+                    <ImageView
+                        android:src="@drawable/currentp"
+                        android:contentDescription="Current Term"
+                        style="@style/cardviewImg"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Current Papers"
+                        style="@style/cardviewTxt"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    style="@style/cardviewLayout"
+                    android:id="@+id/download"
+                    >
+                    <ImageView
+                        android:src="@drawable/download"
+                        android:contentDescription="Downloads"
+                        style="@style/cardviewImg"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Downloads"
+                        style="@style/cardviewTxt"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+<!--            3rd row start from here -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_weight="2"
+                android:id="@+id/writeToUs"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    style="@style/cardviewLayout"
+                    >
+                    <ImageView
+                        android:src="@drawable/write"
+                        android:contentDescription="Write to Us"
+                        style="@style/cardviewImg"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Write to Us"
+                        style="@style/cardviewTxt"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    style="@style/cardviewLayout"
+                    android:id="@+id/aboutUs"
+                    >
+                    <ImageView
+                        android:src="@drawable/about"
+                        android:contentDescription="About Us"
+                        style="@style/cardviewImg"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About Us"
+                        style="@style/cardviewTxt"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

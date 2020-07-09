@@ -1,0 +1,38 @@
+[
+  {
+    "id": 64,
+    "title": {
+      "rendered": "CS301"
+    },
+    "content": {
+      "rendered": "\n<p>Mcqs mostly from past papers<br>subjective.<br>1.Application of Hashing<br>2.Transitivity relationship<br>3.Deleta a node from max heap and draw again.<br>4.Frequency table<br>5.Program given and write about variable<br>6.bubble sort after two iterations. 5 Marks<br>7.Threded binary tree given and for one node write its four varaibles values<br>a.left flag<br>B.Right flag<br>C.left pointer node.<br>D.Right pointer node.<br>5 Marks<br>8. AVL tree after deleting one node draw Balance tree. 5 marks<br>9.For furniture selling compay to customer s write<br>a) What are basic operation must select for the databese system<br>b)On what basic points the data structure is select for this company. 5 Marks<br>10.Write and Explain Union and Find operation for Dynamic Equivalence Problem.</p>\n"
+    }
+  },
+  {
+    "id": 62,
+    "title": {
+      "rendered": "CS201 Current Paper"
+    },
+    "content": {
+      "rendered": "\n<p>Asalam o Alikam<br>Today paper cs201 5pm<br>3 questions error find<br>2 questions output btane wale<br>2 programs<br>R 3 ese he short short question the<br>Kn knse operator overload ni ho skte wo btayen<br>Kese pta chlega k new function se memory allocate hue h ya ni</p>\n"
+    }
+  },
+  {
+    "id": 60,
+    "title": {
+      "rendered": "CS101 Current Paper"
+    },
+    "content": {
+      "rendered": "\n<p>Total 50 questions<br>40 mcq<br>5 questions (3 marks) each<br>5 questions (5 marks) each<br>Mcq asaan thy zada mushkil ni thy 60% past papers sy.</p>\n\n\n\n<p>1. Html code for image.<br>2. 3 types of database<br>3. Telnet and FTP protocol<br>4. 5 irresponsible teams for software development.<br>5. Array that take 5 elements<br>6. Simple html program to include email and website to the website<br>7. Star topology.<br>8. 5 steps for user data security in network.</p>\n"
+    }
+  },
+  {
+    "id": 1,
+    "title": {
+      "rendered": "Hello world!"
+    },
+    "content": {
+      "rendered": "\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n"
+    }
+  }
+]

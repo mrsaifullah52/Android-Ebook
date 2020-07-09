@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="quote" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/darkGray</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="quoteTitle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/darkGray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+
+    <style name="cardviewLayout" parent="Theme.AppCompat.Light">
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">#fff</item>
+    </style>
+
+    <style name="cardviewImg" parent="Theme.AppCompat.Light">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">135dp</item>
+        <item name="android:layout_height">135dp</item>
+    </style>
+
+    <style name="cardviewTxt" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="menuBtn" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+
+</resources>

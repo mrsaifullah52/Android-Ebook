@@ -1,0 +1,313 @@
+<resources>
+    <string name="app_name">VU Papers</string>
+
+    <string name="qoute">Listen your Heartbeats what they are saying to you.</string>
+
+    <!--CompleteCodes of Subjects-->
+
+    <string-array name="ACC">
+        <item>ACC301</item>
+        <item>ACC501</item>
+    </string-array>
+    <string-array name="BIF">
+        <item>BIF401</item>
+    </string-array>
+    <string-array name="BIO">
+        <item>BIO101</item>
+        <item>BIO102</item>
+        <item>BIO201</item>
+        <item>BIO202</item>
+        <item>BIO301</item>
+        <item>BIO302</item>
+        <item>BIO732</item>
+    </string-array>
+    <string-array name="BNK">
+        <item>BNK601</item>
+        <item>BNK603</item>
+        <item>BNK604</item>
+    </string-array>
+    <string-array name="CS">
+        <item>CS001</item>
+        <item>CS101</item>
+        <item>CS201</item>
+        <item>CS206</item>
+        <item>CS301</item>
+        <item>CS302</item>
+        <item>CS304</item>
+        <item>CS311</item>
+        <item>CS312</item>
+        <item>CS401</item>
+        <item>CS402</item>
+        <item>CS403</item>
+        <item>CS408</item>
+        <item>CS410</item>
+        <item>CS411</item>
+        <item>CS501</item>
+        <item>CS502</item>
+        <item>CS504</item>
+        <item>CS506</item>
+        <item>CS507</item>
+        <item>CS508</item>
+        <item>CS602</item>
+        <item>CS604</item>
+        <item>CS605</item>
+        <item>CS606</item>
+        <item>CS607</item>
+        <item>CS609</item>
+        <item>CS610</item>
+        <item>CS614</item>
+        <item>CS615</item>
+        <item>CS701</item>
+        <item>CS702</item>
+        <item>CS703</item>
+        <item>CS704</item>
+        <item>CS706</item>
+        <item>CS707</item>
+        <item>CS708</item>
+        <item>CS709</item>
+        <item>CS710</item>
+        <item>CS711</item>
+        <item>CS712</item>
+        <item>CS713</item>
+        <item>CS718</item>
+    </string-array>
+    <string-array name="ECO">
+        <item>ECO401</item>
+        <item>ECO402</item>
+        <item>ECO403</item>
+        <item>ECO404</item>
+        <item>ECO501</item>
+        <item>ECO601</item>
+    </string-array>
+    <string-array name="EDU">
+        <item>EDU101</item>
+        <item>EDU201</item>
+        <item>EDU301</item>
+        <item>EDU303</item>
+        <item>EDU304</item>
+        <item>EDU305</item>
+        <item>EDU402</item>
+        <item>EDU405</item>
+        <item>EDU406</item>
+        <item>EDU501</item>
+        <item>EDU512</item>
+        <item>EDU515</item>
+        <item>EDU516</item>
+        <item>EDU601</item>
+        <item>EDU602</item>
+        <item>EDU603</item>
+        <item>EDU654</item>
+    </string-array>
+    <string-array name="ETH">
+        <item>ETH201</item>
+        <item>ETH202</item>
+    </string-array>
+    <string-array name="ENG">
+        <item>ENG001</item>
+        <item>ENG101</item>
+        <item>ENG201</item>
+        <item>ENG301</item>
+        <item>ENG401</item>
+    </string-array>
+    <string-array name="FIN">
+        <item>FIN611</item>
+        <item>FIN621</item>
+        <item>FIN622</item>
+        <item>FIN623</item>
+        <item>FIN624</item>
+        <item>FIN625</item>
+        <item>FIN630</item>
+        <item>FIN704</item>
+        <item>FIN722</item>
+    </string-array>
+    <string-array name="GSC">
+        <item>GSC101</item>
+        <item>GSC201</item>
+    </string-array>
+    <string-array name="HRM">
+        <item>HRM611</item>
+        <item>HRM617</item>
+        <item>HRM623</item>
+        <item>HRM624</item>
+        <item>HRM625</item>
+        <item>HRM627</item>
+        <item>HRM628</item>
+    </string-array>
+    <string-array name="ISL">
+        <item>ISL201</item>
+    </string-array>
+    <string-array name="IT">
+        <item>IT403</item>
+    </string-array>
+    <string-array name="MCD">
+        <item>MCD402</item>
+        <item>MCD403</item>
+        <item>MCD502</item>
+    </string-array>
+    <string-array name="MGT">
+        <item>MGT101</item>
+        <item>MGT111</item>
+        <item>MGT201</item>
+        <item>MGT211</item>
+        <item>MGT301</item>
+        <item>MGT401</item>
+        <item>MGT402</item>
+        <item>MGT404</item>
+        <item>MGT411</item>
+        <item>MGT501</item>
+        <item>MGT502</item>
+        <item>MGT503</item>
+        <item>MGT504</item>
+        <item>MGT510</item>
+        <item>MGT520</item>
+        <item>MGT601</item>
+        <item>MGT602</item>
+        <item>MGT603</item>
+        <item>MGT604</item>
+        <item>MGT610</item>
+        <item>MGT611</item>
+        <item>MGT612</item>
+        <item>MGT613</item>
+        <item>MGT621</item>
+        <item>MGT705</item>
+        <item>MGT711</item>
+        <item>MGT713</item>
+    </string-array>
+    <string-array name="MGMT">
+        <item>MGMT611</item>
+        <item>MGMT622</item>
+        <item>MGMT623</item>
+        <item>MGMT625</item>
+        <item>MGMT627</item>
+        <item>MGMT628</item>
+        <item>MGMT629</item>
+        <item>MGMT630</item>
+        <item>MGMT727</item>
+    </string-array>
+    <string-array name="MCM">
+        <item>MCM101</item>
+        <item>MCM301</item>
+        <item>MCM304</item>
+        <item>MCM310</item>
+        <item>MCM311</item>
+        <item>MCM401</item>
+        <item>MCM404</item>
+        <item>MCM411</item>
+        <item>MCM431</item>
+        <item>MCM501</item>
+        <item>MCM511</item>
+        <item>MCM514</item>
+        <item>MCM515</item>
+        <item>MCM516</item>
+        <item>MCM517</item>
+        <item>MCM520</item>
+        <item>MCM531</item>
+        <item>MCM532</item>
+        <item>MCM601</item>
+        <item>MCM604</item>
+        <item>MCM610</item>
+    </string-array>
+    <string-array name="MTH">
+        <item>MTH001</item>
+        <item>MTH100</item>
+        <item>MTH101</item>
+        <item>MTH202</item>
+        <item>MTH301</item>
+        <item>MTH302</item>
+        <item>MTH303</item>
+        <item>MTH401</item>
+        <item>MTH501</item>
+        <item>MTH601</item>
+        <item>MTH603</item>
+    </string-array>
+    <string-array name="MKT">
+        <item>MKT501</item>
+        <item>MKT530</item>
+        <item>MKT610</item>
+        <item>MKT611</item>
+        <item>MKT621</item>
+        <item>MKT624</item>
+        <item>MKT625</item>
+        <item>MKT630</item>
+        <item>MKT711</item>
+    </string-array>
+    <string-array name="PAK">
+        <item>PAK301</item>
+        <item>PAK302</item>
+    </string-array>
+    <string-array name="PSY">
+        <item>PSY101</item>
+        <item>PSY401</item>
+        <item>PSY402</item>
+        <item>PSY403</item>
+        <item>PSY404</item>
+        <item>PSY405</item>
+        <item>PSY406</item>
+        <item>PSY407</item>
+        <item>PSY408</item>
+        <item>PSY409</item>
+        <item>PSY502</item>
+        <item>PSY504</item>
+        <item>PSY505</item>
+        <item>PSY510</item>
+        <item>PSY511</item>
+        <item>PSY512</item>
+        <item>PSY513</item>
+        <item>PSY514</item>
+        <item>PSY515</item>
+        <item>PSY610</item>
+        <item>PSY631</item>
+        <item>PSY632</item>
+    </string-array>
+    <string-array name="PHY">
+        <item>PHY101</item>
+        <item>PHY301</item>
+    </string-array>
+    <string-array name="PSC">
+        <item>PSC201</item>
+        <item>PSC401</item>
+    </string-array>
+    <string-array name="SOC">
+        <item>SOC101</item>
+        <item>SOC401</item>
+    </string-array>
+    <string-array name="STA">
+        <item>STA301</item>
+        <item>STA630</item>
+        <item>STA730</item>
+    </string-array>
+    <string-array name="URD">
+        <item>URD101</item>
+    </string-array>
+
+    <!--HalfCodes of Subjects-->
+    <array name="backCodes">
+        <item>ACC</item>
+        <item>BIF</item>
+        <item>BIO</item>
+        <item>BNK</item>
+        <item>CS</item>
+        <item>ECO</item>
+        <item>EDU</item>
+        <item>ETH</item>
+        <item>ENG</item>
+        <item>FIN</item>
+        <item>GSC</item>
+        <item>HRM</item>
+        <item>ISL</item>
+        <item>IT</item>
+        <item>MCD</item>
+        <item>MGT</item>
+        <item>MGMT</item>
+        <item>MCM</item>
+        <item>MTH</item>
+        <item>MKT</item>
+        <item>PAK</item>
+        <item>PSY</item>
+        <item>PHY</item>
+        <item>PSC</item>
+        <item>SOC</item>
+        <item>STA</item>
+        <item>URD</item>
+    </array>
+</resources>

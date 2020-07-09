@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vupapers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".contentDetail"></activity>
+        <activity android:name=".pdfOpener" />
+        <activity android:name=".papers" />
+        <activity android:name=".subjects" />
+        <activity android:name=".aboutUs" />
+        <activity android:name=".writeToUs" />
+        <activity android:name=".download" />
+        <activity android:name=".midTerm" />
+        <activity android:name=".finalTerm" />
+        <activity android:name=".currentPapers" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyTestService"
+            android:exported="false" />
+
+    </application>
+
+
+</manifest>

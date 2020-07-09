@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "551783955651",
+    "firebase_url": "https://vupastpapers-48cf5.firebaseio.com",
+    "project_id": "vupastpapers-48cf5",
+    "storage_bucket": "vupastpapers-48cf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551783955651:android:ca962007c26791530b3676",
+        "android_client_info": {
+          "package_name": "com.example.vupapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551783955651-g5onb63ueo6nhdo4e3bmc3f8d6unm0c4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vupapers",
+            "certificate_hash": "4614ca6d6489513e81bcf0db9c655b2441d92646"
+          }
+        },
+        {
+          "client_id": "551783955651-su2rbe2cf9arrg4avf4ck93uj3dkm125.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH-sINj6fLEYHRFWxVhw5p8rfK__pDHvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551783955651-su2rbe2cf9arrg4avf4ck93uj3dkm125.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
