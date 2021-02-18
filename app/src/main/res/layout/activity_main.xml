@@ -1,206 +1,240 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#F3F3F3"
+    android:background="#ECF3F4"
+    android:orientation="vertical"
     >
 
-    <ScrollView
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         >
 
-        <LinearLayout
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/darkGray"
+          android:orientation="vertical"
+          android:paddingBottom="@dimen/_10sdp"
+          >
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:weightSum="10"
+            android:layout_height="wrap_content"
+            android:text="@string/qoute"
+            style="@style/quote"
+            android:id="@+id/myQuote"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Qoute"
+            style="@style/quoteTitle"
+            />
+      </LinearLayout>
+
+
+      <!--        1st Row-->
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_8sdp"
+            android:clickable="true"
             >
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#416EDE"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/qoute"
-                    style="@style/quote"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Daily Qoute"
-                    style="@style/quoteTitle"
-                    />
-            </LinearLayout>
-
-<!--            1st row start from here-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="10dp"
-                android:layout_weight="2"
-                >
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    style="@style/cardviewLayout"
-                    android:id="@+id/finalTerm"
-                    >
-                    <ImageView
-                        android:src="@drawable/book"
-                        android:contentDescription="Final Term"
-                        style="@style/cardviewImg"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Final Term"
-                        style="@style/cardviewTxt"
-                        />
-                </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/midTerm"
+              >
+            <ImageView
+                style="@style/cardviewImg"
+                android:src="@drawable/ebook1"
+                />
+            <TextView
+                style="@style/cardviewTxt"
+                android:text="Mid Term"
+                />
 
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    style="@style/cardviewLayout"
-                    android:id="@+id/midTerm"
-                    >
-                    <ImageView
-                        android:src="@drawable/book"
-                        android:contentDescription="Mid Term"
-                        style="@style/cardviewImg"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mid Term"
-                        style="@style/cardviewTxt"
-                        />
-                </LinearLayout>
+          </LinearLayout>
 
-            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
-<!--            2nd row start from here -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="10dp"
-                android:layout_weight="2"
-                >
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    style="@style/cardviewLayout"
-                    android:id="@+id/currentPapers"
-                    >
-                    <ImageView
-                        android:src="@drawable/currentp"
-                        android:contentDescription="Current Term"
-                        style="@style/cardviewImg"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Current Papers"
-                        style="@style/cardviewTxt"
-                        />
-                </LinearLayout>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_8sdp"
+            android:clickable="true"
+            >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/finalTerm"
+              >
+
+            <ImageView
+                style="@style/cardviewImg"
+                android:src="@drawable/ebook1"
+                />
+
+            <TextView
+                style="@style/cardviewTxt"
+                android:text="Final Term"
+                />
 
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    style="@style/cardviewLayout"
-                    android:id="@+id/download"
-                    >
-                    <ImageView
-                        android:src="@drawable/download"
-                        android:contentDescription="Downloads"
-                        style="@style/cardviewImg"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Downloads"
-                        style="@style/cardviewTxt"
-                        />
-                </LinearLayout>
+          </LinearLayout>
 
-            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
-<!--            3rd row start from here -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="10dp"
-                android:layout_weight="2"
-                android:id="@+id/writeToUs"
-                >
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    style="@style/cardviewLayout"
-                    >
-                    <ImageView
-                        android:src="@drawable/write"
-                        android:contentDescription="Write to Us"
-                        style="@style/cardviewImg"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Write to Us"
-                        style="@style/cardviewTxt"
-                        />
-                </LinearLayout>
+      </LinearLayout>
+      <!--        2nd Row-->
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_8sdp"
+            android:clickable="true"
+            >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/currentPapers"
+              >
+            <ImageView
+                style="@style/cardviewImg"
+                android:src="@drawable/current"
+                />
+            <TextView
+                style="@style/cardviewTxt"
+                android:text="Current Papers"
+                />
 
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    style="@style/cardviewLayout"
-                    android:id="@+id/aboutUs"
-                    >
-                    <ImageView
-                        android:src="@drawable/about"
-                        android:contentDescription="About Us"
-                        style="@style/cardviewImg"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="About Us"
-                        style="@style/cardviewTxt"
-                        />
-                </LinearLayout>
+          </LinearLayout>
 
-            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
-        </LinearLayout>
-    </ScrollView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_8sdp"
+            android:clickable="true"
+            >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/download"
+              >
+
+            <ImageView
+                style="@style/cardviewImg"
+                android:src="@drawable/download1"
+                />
+
+            <TextView
+                style="@style/cardviewTxt"
+                android:text="Download"
+                />
 
 
-</RelativeLayout>
+          </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+      </LinearLayout>
+
+      <!--        3rd Row-->
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_8sdp"
+            android:clickable="true"
+            >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/writeToUs"
+              >
+            <ImageView
+                style="@style/cardviewImg"
+                android:src="@drawable/writetous1"
+                />
+            <TextView
+                style="@style/cardviewTxt"
+                android:text="Write to Us"
+                />
+
+
+          </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_8sdp"
+            android:clickable="true"
+            >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/aboutUs"
+              >
+
+            <ImageView
+                style="@style/cardviewImg"
+                android:src="@drawable/aboutus1"
+                />
+
+            <TextView
+                style="@style/cardviewTxt"
+                android:text="About Us"
+                />
+
+
+          </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+      </LinearLayout>
+
+
+
+    </LinearLayout>
+  </ScrollView>
+
+
+</LinearLayout>

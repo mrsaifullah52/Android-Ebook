@@ -22,30 +22,29 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/menuBtn"
+            style="@style/menuBtn2"
             android:text="File 01"
             android:id="@+id/File1"
             />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/menuBtn"
+            style="@style/menuBtn2"
             android:text="File 02"
             android:id="@+id/File2"
             />
 
-
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/menuBtn"
+            style="@style/menuBtn2"
             android:text="File 03"
             android:id="@+id/File3"
             />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/menuBtn"
+            style="@style/menuBtn2"
             android:text="File 04"
             android:id="@+id/File4"
             />

@@ -1,64 +1,102 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-    </style>
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+  </style>
 
 
-    <style name="quote" parent="Theme.AppCompat.Light">
-        <item name="android:background">@color/darkGray</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">#ffffff</item>
-        <item name="android:paddingTop">10dp</item>
-        <item name="android:paddingLeft">10dp</item>
-        <item name="android:paddingRight">10dp</item>
-        <item name="android:paddingBottom">10dp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="quoteTitle" parent="Theme.AppCompat.Light">
-        <item name="android:background">@color/darkGray</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#ffffff</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:layout_marginLeft">20dp</item>
-    </style>
+  <style name="quote" parent="Theme.MaterialComponents.Light">
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">@color/textColour</item>
+    <item name="android:paddingTop">@dimen/_10sdp</item>
+    <item name="android:paddingLeft">@dimen/_10sdp</item>
+    <item name="android:paddingRight">@dimen/_10sdp</item>
+    <item name="android:paddingBottom">@dimen/_10sdp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+  <style name="quoteTitle" parent="Theme.MaterialComponents.Light">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">@color/textColour</item>
+    <item name="android:textStyle">italic</item>
+    <item name="android:layout_gravity">right</item>
+    <item name="android:paddingRight">@dimen/_20sdp</item>
+  </style>
 
 
-    <style name="cardviewLayout" parent="Theme.AppCompat.Light">
-        <item name="android:paddingTop">20dp</item>
-        <item name="android:paddingBottom">20dp</item>
-        <item name="android:paddingLeft">10dp</item>
-        <item name="android:paddingRight">10dp</item>
-        <item name="android:layout_margin">10dp</item>
-        <item name="android:background">#fff</item>
-    </style>
+  <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">8dp</item>
 
-    <style name="cardviewImg" parent="Theme.AppCompat.Light">
-        <item name="android:layout_gravity">center</item>
-        <item name="android:layout_width">135dp</item>
-        <item name="android:layout_height">135dp</item>
-    </style>
+    <item name="android:paddingTop">@dimen/_20sdp</item>
+    <item name="android:paddingBottom">@dimen/_20sdp</item>
+    <item name="android:paddingLeft">@dimen/_10sdp</item>
+    <item name="android:paddingRight">@dimen/_10sdp</item>
+    <item name="android:layout_margin">@dimen/_10sdp</item>
+    <item name="android:background">#fff</item>
+  </style>
+  <style name="cardviewLayout" parent="Theme.MaterialComponents">
+    ...
+    <item name="colorPrimary">@color/cardview_dark_background</item>
+    <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+  </style>
 
-    <style name="cardviewTxt" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:layout_gravity">center</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
+<!--  <style name="mycardview" parent="cardviewLayout">-->
+<!--    android:style="@style/mycardview"-->
+<!--    <item name="android:layout_width">0dp</item>-->
+<!--    <item name="android:layout_height">wrap_content</item>-->
+<!--    <item name="android:layout_weight">1</item>-->
+<!--    <item name="android:layout_margin">@dimen/_8sdp</item>-->
+<!--    <item name="android:clickable">true</item>-->
+<!--  </style>-->
 
-    <style name="menuBtn" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:textSize">18sp</item>
-        <item name="android:background">@color/colorPrimary</item>
-        <item name="android:layout_margin">5dp</item>
-        <item name="android:textColor">#fff</item>
-        <item name="android:paddingTop">10dp</item>
-        <item name="android:paddingBottom">10dp</item>
-        <item name="android:paddingLeft">5dp</item>
-        <item name="android:paddingRight">5dp</item>
-        <item name="android:layout_height">50dp</item>
-    </style>
+  <style name="cardviewImg" parent="Theme.MaterialComponents.Light">
+    <item name="android:layout_gravity">center</item>
+    <item name="android:scaleType">centerCrop</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/_135sdp</item>
+  </style>
 
+  <style name="cardviewTxt" parent="Theme.MaterialComponents.Light">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingTop">@dimen/_5sdp</item>
+    <item name="android:paddingBottom">@dimen/_5sdp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="menuBtn1" parent="Theme.MaterialComponents.Light">
+    <item name="android:textSize">18sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:background">@color/darkGray</item>
+    <item name="android:layout_marginTop">@dimen/_5sdp</item>
+    <item name="android:layout_marginLeft">@dimen/_5sdp</item>
+    <item name="android:layout_marginBottom">@dimen/_5sdp</item>
+    <item name="android:textColor">@color/textColour</item>
+    <item name="android:paddingTop">@dimen/_10sdp</item>
+    <item name="android:paddingBottom">@dimen/_10sdp</item>
+    <item name="android:paddingLeft">@dimen/_5sdp</item>
+    <item name="android:paddingRight">@dimen/_5sdp</item>
+    <item name="android:layout_height">@dimen/_50sdp</item>
+  </style>
+
+  <style name="menuBtn2" parent="Theme.MaterialComponents.Light">
+    <item name="android:textSize">18sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:background">@color/darkGray</item>
+    <item name="android:layout_marginTop">@dimen/_5sdp</item>
+    <item name="android:layout_marginRight">@dimen/_5sdp</item>
+    <item name="android:layout_marginBottom">@dimen/_5sdp</item>
+    <item name="android:textColor">@color/textColour</item>
+    <item name="android:paddingTop">@dimen/_10sdp</item>
+    <item name="android:paddingBottom">@dimen/_10sdp</item>
+    <item name="android:paddingLeft">@dimen/_5sdp</item>
+    <item name="android:paddingRight">@dimen/_5sdp</item>
+    <item name="android:layout_height">@dimen/_50sdp</item>
+  </style>
 
 </resources>
